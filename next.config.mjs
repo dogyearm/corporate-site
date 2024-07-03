@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/corporate-site",
+  basePath: process.env.BASE_PATH || "",
+  assetPrefix: process.env.BASE_PATH || "",
   images: {
     unoptimized: true,
   },
