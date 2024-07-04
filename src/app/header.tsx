@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from "next/image";
+import Banner from "./banner";
 
 import { lulo } from './fonts';
 
@@ -16,19 +17,19 @@ export default function Header() {
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul className="font-semibold text-sm flex flex-col items-center p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
               <li>
-                <a href="/service" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-slate-700 md:px-2">
+                <a href="#service" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-slate-700 md:px-2">
                   <span className="block text-xs">Service</span>
                   提供するサービス
                 </a>
               </li>
               <li>
-                <a href="/works" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-slate-700 md:px-2">
+                <a href="#works" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-slate-700 md:px-2">
                   <span className="block text-xs">Works</span>
                   開発実績
                 </a>
               </li>
               <li>
-                <a href="/about" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-slate-700 md:px-2">
+                <a href="#about" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-slate-700 md:px-2">
                   <span className="block text-xs">About us</span>
                   会社概要
                 </a>
@@ -40,7 +41,7 @@ export default function Header() {
                 </a>
               </li>
               <li>
-                <a href="/contact" className="block rounded-lg bg-slate-500 px-6 py-3 text-center text-sm font-semibold text-white outline-none ring-slate-300 transition duration-100 hover:bg-slate-600 focus-visible:ring active:bg-slate-700">
+                <a href="#contact" className="block rounded-lg bg-slate-500 px-6 py-3 text-center text-sm font-semibold text-white outline-none ring-slate-300 transition duration-100 hover:bg-slate-600 focus-visible:ring active:bg-slate-700">
                   お問い合わせ
                 </a>
               </li>
@@ -48,6 +49,8 @@ export default function Header() {
           </div>
         </div>
       </nav>
+
+      <Banner />
     </header>
   );
 }

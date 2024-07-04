@@ -1,30 +1,17 @@
-import Image from "next/image";
+import React from 'react';
+import { lulo } from './../fonts';
 
 export default function Service() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-4xl font-bold text-center">Service</h1>
-      <p className="text-gray-500 text-center">
-        ニーズに合ったシステム導入をサポートします。
-      </p>
-      <section className="flex flex-col gap-8 mt-16">
-        <div className="flex flex-col items-center gap-4">
-          <h2 className="text-xl font-bold">Web Development</h2>
-          <p className="text-gray-500 text-center">
-            フロントエンドからバックエンドまで、Webアプリケーションの開発を行います。
-          </p>
-        </div>
-        <div className="flex flex-col items-center gap-4">
-          <h2 className="text-xl font-bold">Mobile Development</h2>
-          <p className="text-gray-500 text-center">
-            ノーコード開発プラットフォームを使用してシステム構築を行います。
-          </p>
-        </div>
-        <div className="flex flex-col items-center gap-4">
-          <h2 className="text-xl font-bold">UI/UX Design</h2>
-          <p className="text-gray-500 text-center">
-            アーキテクチャー設計からデザインまで、ユーザビリティを重視したシステムを提供します。
-          </p>
+    <main className="mt-32">
+      <section>
+        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+          <div className="mx-auto max-w-lg text-center">
+            <p className={`${lulo.className} font-extrabold text-xl sm:text-xl md:text-xl pt-4`}>提供するサービス</p>
+            <h1 className={`${lulo.className} font-extrabold text-4xl sm:text-6xl md:text-6xl pt-4`}>
+              Service
+            </h1>
+          </div>
         </div>
       </section>
     </main>

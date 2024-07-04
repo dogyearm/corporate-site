@@ -1,13 +1,12 @@
 import Image from "next/image";
-import Banner from "./banner";
 
 import { montserrat, lulo } from './fonts';
 
 // カバー画像を gif で表示したい
 export default function Home() {
   return (
-    <main>
-      <section className="relative bg-[url(/hero.gif)] bg-cover bg-center bg-no-repeat" >
+    <main className="mt-32">
+      <section className="relative bg-[url(/hero.gif)] bg-cover bg-center bg-no-repeat">
         <div className="absolute inset-0 bg-gray-900/75 sm:bg-transparent sm:from-gray-900/95 sm:to-gray-900/25"></div>
         <div className="relative mx-auto max-w-screen-xl px-4 py-36 sm:px-6 lg:flex lg:items-center lg:px-8" >
           <div className="mx-auto max-w-xl text-center">
@@ -29,9 +28,7 @@ export default function Home() {
         </div>
       </section>
 
-      <Banner />
-
-      <section>
+      <section id="about">
         <div className="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
           <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16">
             <div className="mx-auto max-w-lg text-center lg:mx-0 ltr:lg:text-left rtl:lg:text-right">
@@ -246,7 +243,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-gray-400 text-white">
+      <section id="service" className="bg-gray-400 text-white">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
           <div className="mx-auto max-w-lg text-center">
             <p className="mb-4 text-gray-300">提供するサービス</p>
@@ -359,7 +356,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="">
+      <section id="works" className="">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
           <div className="mx-auto max-w-lg text-center">
             <p className="mb-4">開発事例</p>
@@ -473,7 +470,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
     </main>
   );
 }
