@@ -164,97 +164,33 @@ export default function Home() {
           </div>
 
           <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <a href="#" className="block rounded-lg p-4 shadow-sm shadow-indigo-100">
-              <img
-                alt=""
-                src="https://images.unsplash.com/photo-1613545325278-f24b0cae1224?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-                className="h-56 w-full rounded-md object-cover"
-              />
+            <a href="#" class="group relative block h-64 sm:h-80 lg:h-96">
+              <span class="absolute inset-0 border-2 border-dashed border-black"></span>
 
-              <div className="mt-2">
-                <dl>
-                  <div>
-                    <dt className="sr-only">Price</dt>
+              <div
+                class="relative flex h-full transform items-end border-2 border-black bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2"
+              >
+                <div
+                  class="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8"
+                >
+                  <svg class="size-10 sm:size-12" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m7.171 12.906-2.153 6.411 2.672-.89 1.568 2.34 1.825-5.183m5.73-2.678 2.154 6.411-2.673-.89-1.568 2.34-1.825-5.183M9.165 4.3c.58.068 1.153-.17 1.515-.628a1.681 1.681 0 0 1 2.64 0 1.68 1.68 0 0 0 1.515.628 1.681 1.681 0 0 1 1.866 1.866c-.068.58.17 1.154.628 1.516a1.681 1.681 0 0 1 0 2.639 1.682 1.682 0 0 0-.628 1.515 1.681 1.681 0 0 1-1.866 1.866 1.681 1.681 0 0 0-1.516.628 1.681 1.681 0 0 1-2.639 0 1.681 1.681 0 0 0-1.515-.628 1.681 1.681 0 0 1-1.867-1.866 1.681 1.681 0 0 0-.627-1.515 1.681 1.681 0 0 1 0-2.64c.458-.361.696-.935.627-1.515A1.681 1.681 0 0 1 9.165 4.3ZM14 9a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"/>
+                  </svg>
 
-                    <dd className="text-sm text-gray-500">$240,000</dd>
-                  </div>
+                  <h2 class="mt-4 text-xl font-medium sm:text-2xl">投げ銭サービスへの Chrome 拡張機能の導入</h2>
+                </div>
 
-                  <div>
-                    <dt className="sr-only">Address</dt>
+                <div
+                  class="absolute p-4 opacity-0 transition-opacity group-hover:relative group-hover:opacity-100 sm:p-6 lg:p-8"
+                >
+                  <h3 class="mt-4 text-xl font-medium sm:text-2xl">Go around the world</h3>
 
-                    <dd className="font-medium">123 Wallaby Avenue, Park Road</dd>
-                  </div>
-                </dl>
+                  <p class="mt-4 text-sm sm:text-base">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, praesentium voluptatem
+                    omnis atque culpa repellendus.
+                  </p>
 
-                <div className="mt-6 flex items-center gap-8 text-xs">
-                  <div className="sm:inline-flex sm:shrink-0 sm:items-center sm:gap-2">
-                    <svg
-                      className="size-4 text-indigo-700"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z"
-                      />
-                    </svg>
-
-                    <div className="mt-1.5 sm:mt-0">
-                      <p className="text-gray-500">Parking</p>
-
-                      <p className="font-medium">2 spaces</p>
-                    </div>
-                  </div>
-
-                  <div className="sm:inline-flex sm:shrink-0 sm:items-center sm:gap-2">
-                    <svg
-                      className="size-4 text-indigo-700"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
-                      />
-                    </svg>
-
-                    <div className="mt-1.5 sm:mt-0">
-                      <p className="text-gray-500">Bathroom</p>
-
-                      <p className="font-medium">2 rooms</p>
-                    </div>
-                  </div>
-
-                  <div className="sm:inline-flex sm:shrink-0 sm:items-center sm:gap-2">
-                    <svg
-                      className="size-4 text-indigo-700"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
-                      />
-                    </svg>
-
-                    <div className="mt-1.5 sm:mt-0">
-                      <p className="text-gray-500">Bedroom</p>
-
-                      <p className="font-medium">4 rooms</p>
-                    </div>
-                  </div>
+                  <p class="mt-8 font-bold">Read more</p>
                 </div>
               </div>
             </a>
