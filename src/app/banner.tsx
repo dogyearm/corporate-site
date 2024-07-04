@@ -8,7 +8,7 @@ export default function Bannar() {
         Youtube チャネルにて開発事例公開中！
       </div>
 
-      <a href="#" class="order-last inline-block w-full whitespace-nowrap rounded-lg bg-black px-4 py-2 text-center text-xs font-semibold text-white outline-none ring-slate-300 transition duration-100 hover:bg-slate-700 focus-visible:ring active:bg-slate-800 sm:order-none sm:w-auto md:text-sm">アクセスはこちら</a>
+      <a href="#" class="order-last inline-block w-full whitespace-nowrap rounded-lg bg-black px-4 py-2 text-center text-xs font-semibold text-white outline-none ring-slate-300 transition duration-100 hover:bg-slate-700 focus-visible:ring active:bg-slate-800 sm:order-none sm:w-auto md:text-sm">アクセスはこちらから →</a>
     </div>
   );
 }
