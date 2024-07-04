@@ -13,11 +13,11 @@ export default function Home() {
           <div className="mx-auto max-w-xl text-center">
             <h1 className={`${lulo.className} text-white font-extrabold text-4xl sm:text-6xl md:text-7xl pt-4`}>
             { /* <h1 className={`${montserrat.className} text-white font-extrabold text-4xl sm:text-6xl md:text-8xl pt-4`}> */ }
-              GOOD NEIGHBOR
+              GOOD NEIGHBOR WORKS
             </h1>
 
             <p className="mt-4 max-w-lg text-white sm:text-xl/relaxed">
-              当社は <strong>Retool</strong>・<strong>Bubble</strong> といったノーコード・ローコードツールを活用した開発を得意とする開発会社です。
+              当社は <strong>Retool</strong>・<strong>Bubble</strong> などのノーコード・ローコードツールを活用した開発を得意とする開発会社です。
             </p>
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">

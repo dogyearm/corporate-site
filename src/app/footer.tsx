@@ -11,9 +11,9 @@ export default function Footer() {
           <div className="grid grid-cols-2 gap-12 border-t pt-10 md:grid-cols-4 lg:grid-cols-6 lg:gap-8 lg:pt-12">
             <div className="col-span-full lg:col-span-2">
               <div className="mb-1 lg:-mt-2">
-                <a href="/" className="inline-flex items-center text-lg font-bold text-black" aria-label="logo">
+                <a href="/" className="inline-flex items-center gap-1 text-sm font-bold text-black" aria-label="logo">
                   <Image src="/logo.svg" width={40} height={40} alt="Neighbor Works" className="mb-2.5" />
-                  <span className={lulo.className}>Good Neighbor</span>
+                  <span className={lulo.className}>Good Neighbor Works</span>
                 </a>
               </div>
 
