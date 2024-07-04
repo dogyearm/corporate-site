@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Banner from "./banner";
 
 // カバー画像を gif で表示したい
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
             </h1>
 
             <p className="mt-4 max-w-lg text-white sm:text-xl/relaxed">
-              当社はノーコード開発を専門とした開発会社です。
+              株式会社グッドネイバーはノーコード開発を専門とした開発パートナーです。
             </p>
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
@@ -26,6 +27,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <Banner />
       <section className="bg-white">
         <h2 className="text-3xl font-extrabold text-gray-900 text-center sm:text-4xl">About</h2>
       </section>
