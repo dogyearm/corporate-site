@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Banner from "./banner";
 
-import { montserrat } from './fonts';
+import { montserrat, lulo } from './fonts';
 
 // カバー画像を gif で表示したい
 export default function Home() {
@@ -13,12 +13,13 @@ export default function Home() {
 
         <div className="relative mx-auto max-w-screen-xl px-4 py-36 sm:px-6 lg:flex lg:items-center lg:px-8" >
           <div className="mx-auto max-w-xl text-center">
-            <h1 className={`${montserrat.className} text-white font-extrabold text-4xl sm:text-6xl md:text-8xl pt-4`}>
+            <h1 className={`${lulo.className} text-white font-extrabold text-4xl sm:text-6xl md:text-7xl pt-4`}>
+            { /* <h1 className={`${montserrat.className} text-white font-extrabold text-4xl sm:text-6xl md:text-8xl pt-4`}> */ }
               GOOD NEIGHBOR
             </h1>
 
             <p className="mt-4 max-w-lg text-white sm:text-xl/relaxed">
-              株式会社グッドネイバーはノーコード・ノーコード開発を専門とした開発パートナー企業です。
+              当社は <strong>Retool</strong>・<strong>Bubble</strong> といったノーコード・ローコードツールを活用した開発を得意とする開発会社です。
             </p>
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">

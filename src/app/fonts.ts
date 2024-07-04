@@ -7,6 +7,8 @@ import {
   Roboto_Mono,
 } from "next/font/google";
 
+import localFont from 'next/font/local'
+
 export const notojp = Noto_Sans_JP({
   weight: ["400", "700"],
   subsets: ["latin"],
@@ -30,3 +32,8 @@ export const montserrat = Montserrat({
   subsets: ["latin"],
   display: "swap",
 });
+
+export const lulo = localFont({
+  src: "./LuloCleanFont.woff",
+  variable: "--kicho-jis",
+ });
