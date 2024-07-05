@@ -62,11 +62,64 @@ export default function Home() {
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v5m-3 0h6M4 11h16M5 15h14a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1Z"/>
               </svg>
 
-              <h2 className="mt-4 text-xl font-bold">Retool 開発</h2>
+              <h2 className="mt-4 text-xl font-bold">ノーコード開発</h2>
 
               <p className="mt-1 text-sm text-gray-900">
-                ローコードツールの Retool を活用した開発を行います。
-                サイトから自社システムまで幅広く対応いたします。
+                Retool/Bubble/Google App Shee などのノーコード・ローコードツールを活用した開発を行います。
+                ウェブサイトから社内向け業務システムまで幅広く対応いたします。
+              </p>
+            </a>
+
+            <a
+              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-slate-500/10 hover:shadow-slate-500/10"
+              href="#"
+            >
+              <svg className="size-10 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17h6l3 3v-3h2V9h-2M4 4h11v8H9l-3 3v-3H4V4Z"/>
+              </svg>
+
+              <h2 className="mt-4 text-xl font-bold">LIFF 連携アプリ</h2>
+
+              <p className="mt-1 text-sm text-gray-900">
+                LINE アプリと連携したアプリケーションの開発を行います。
+                店舗向けのアプリからユーザー向けのアプリまで幅広く対応いたします。
+              </p>
+            </a>
+
+            <a
+              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-slate-500/10 hover:shadow-slate-500/10"
+              href="#"
+            >
+
+              <svg className="size-10 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 8h.01M9 8h.01M12 8h.01M4 11h16M4 19h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Z"/>
+              </svg>
+
+              <h2 className="mt-4 text-xl font-bold">Chrome 拡張ツール開発</h2>
+
+              <p className="mt-1 text-sm text-gray-900">
+                Chrome 拡張機能の開発を行います。
+                業務効率化ツールから既存サービスと連携したツールまで幅広く対応いたします。
+              </p>
+            </a>
+
+            <a
+              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-slate-500/10 hover:shadow-slate-500/10"
+              href="#"
+            >
+
+              <svg class="size-10 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z"/>
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 13c0 2.038-2.239 4.5-5 4.5S7 15.038 7 13c0 1.444 10 1.444 10 0Z"/>
+                <path fill="currentColor" d="m9 6.811.618 1.253 1.382.2-1 .975.236 1.377L9 9.966l-1.236.65L8 9.239l-1-.975 1.382-.2L9 6.811Zm6 0 .618 1.253 1.382.2-1 .975.236 1.377L15 9.966l-1.236.65L14 9.239l-1-.975 1.382-.2L15 6.811Z"/>
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m9 6.811.618 1.253 1.382.2-1 .975.236 1.377L9 9.966l-1.236.65L8 9.239l-1-.975 1.382-.2L9 6.811Zm6 0 .618 1.253 1.382.2-1 .975.236 1.377L15 9.966l-1.236.65L14 9.239l-1-.975 1.382-.2L15 6.811Z"/>
+              </svg>
+
+              <h2 className="mt-4 text-xl font-bold">Rails バージョンアップ</h2>
+
+              <p className="mt-1 text-sm text-gray-900">
+                Rails のバージョンアップを行います。
+                パッチバージョンからメジャーバージョンまで後方互換性を保ちながら安全に移行いたします。
               </p>
             </a>
 
@@ -100,58 +153,6 @@ export default function Home() {
               </p>
             </a>
 
-            <a
-              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-slate-500/10 hover:shadow-slate-500/10"
-              href="#"
-            >
-
-              <svg className="size-10 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 8h.01M9 8h.01M12 8h.01M4 11h16M4 19h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Z"/>
-              </svg>
-
-              <h2 className="mt-4 text-xl font-bold">Chrome 拡張機能</h2>
-
-              <p className="mt-1 text-sm text-gray-900">
-                Chrome 拡張機能の開発を行います。
-                業務効率化ツールから既存サービスと連携したツールまで幅広く対応いたします。
-              </p>
-            </a>
-
-            <a
-              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-slate-500/10 hover:shadow-slate-500/10"
-              href="#"
-            >
-              <svg className="size-10 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17h6l3 3v-3h2V9h-2M4 4h11v8H9l-3 3v-3H4V4Z"/>
-              </svg>
-
-              <h2 className="mt-4 text-xl font-bold">LIFF 連携アプリ</h2>
-
-              <p className="mt-1 text-sm text-gray-900">
-                LINE アプリと連携したアプリケーションの開発を行います。
-                店舗向けのアプリからユーザー向けのアプリまで幅広く対応いたします。
-              </p>
-            </a>
-
-            <a
-              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-slate-500/10 hover:shadow-slate-500/10"
-              href="#"
-            >
-
-              <svg class="size-10 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z"/>
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 13c0 2.038-2.239 4.5-5 4.5S7 15.038 7 13c0 1.444 10 1.444 10 0Z"/>
-                <path fill="currentColor" d="m9 6.811.618 1.253 1.382.2-1 .975.236 1.377L9 9.966l-1.236.65L8 9.239l-1-.975 1.382-.2L9 6.811Zm6 0 .618 1.253 1.382.2-1 .975.236 1.377L15 9.966l-1.236.65L14 9.239l-1-.975 1.382-.2L15 6.811Z"/>
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m9 6.811.618 1.253 1.382.2-1 .975.236 1.377L9 9.966l-1.236.65L8 9.239l-1-.975 1.382-.2L9 6.811Zm6 0 .618 1.253 1.382.2-1 .975.236 1.377L15 9.966l-1.236.65L14 9.239l-1-.975 1.382-.2L15 6.811Z"/>
-              </svg>
-
-              <h2 className="mt-4 text-xl font-bold">Rails バージョンアップ</h2>
-
-              <p className="mt-1 text-sm text-gray-900">
-                Rails のバージョンアップを行います。
-                パッチバージョンからメジャーバージョンまで後方互換性を保ちながら安全に移行いたします。
-              </p>
-            </a>
           </div>
         </div>
       </section>
