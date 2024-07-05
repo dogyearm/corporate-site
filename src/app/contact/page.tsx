@@ -16,8 +16,6 @@ export default function Contact() {
                width="640"
                height="1146"
                frameBorder="0"
-               marginHeight="0"
-               marginWidth="0"
              >
               読み込んでいます…
             </iframe>
