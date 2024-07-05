@@ -7,8 +7,8 @@ import Footer from "./footer";
 import Transition from "./transition";
 
 export const metadata: Metadata = {
-  title: "Retool・Bubble を活用したノーコード・ローコードの開発会社 | GOOD NEIGHBOR.Inc",
-  description: "株式会社 GOOD NEIGHBOR は横浜に拠点を置くノーコード・ローコードの開発会社です。お客様のビジネス課題を解決するために、最適なソリューションを提供します。",
+  title: "Retool・Bubble を活用したノーコード開発 | GOOD NEIGHBOR WORKS",
+  description: "当社は Retool・Bubble などのノーコード・ローコードツールを活用した開発を得意とする開発会社です。",
 };
 
 export default function RootLayout({
