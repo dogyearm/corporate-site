@@ -20,7 +20,7 @@ export default function Home() {
             </p>
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
-              <a href="#" className="block w-full rounded bg-gray-700 px-12 py-3 text-sm font-medium text-white shadow hover:bg-slate-700 focus:outline-none focus:ring active:bg-slate-500 sm:w-auto">
+              <a href="/contact" className="block w-full rounded bg-gray-700 px-12 py-3 text-sm font-medium text-white shadow hover:bg-slate-700 focus:outline-none focus:ring active:bg-slate-500 sm:w-auto">
                 お問い合わせはこちら →
               </a>
             </div>

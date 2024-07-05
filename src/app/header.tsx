@@ -41,7 +41,7 @@ export default function Header() {
                 </a>
               </li>
               <li>
-                <a href="#contact" className="block rounded-lg bg-slate-500 px-6 py-3 text-center text-sm font-semibold text-white outline-none ring-slate-300 transition duration-100 hover:bg-slate-600 focus-visible:ring active:bg-slate-700">
+                <a href="/contact" className="block rounded-lg bg-slate-500 px-6 py-3 text-center text-sm font-semibold text-white outline-none ring-slate-300 transition duration-100 hover:bg-slate-600 focus-visible:ring active:bg-slate-700">
                   お問い合わせ
                 </a>
               </li>
