@@ -1,11 +1,15 @@
+"use client";
+
 import React from 'react';
-import Link from 'next/link';
 import Image from "next/image";
 import Banner from "./banner";
 
+import { usePathname } from 'next/navigation';
 import { lulo } from './fonts';
 
 export default function Header() {
+  const pathname = usePathname();
+
   return (
     <header className="fixed top-0 left-0 w-full z-50">
       <nav className="bg-white border-gray-200">
@@ -37,7 +41,7 @@ export default function Header() {
               <li>
                 <a href="/blog" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-slate-700 md:px-2">
                   <span className="block text-xs">Blog</span>
-                  ブログ
+                  <span className={`${pathname === '/blog' ? 'underline' : ''}`}>ブログ</span>
                 </a>
               </li>
               <li>

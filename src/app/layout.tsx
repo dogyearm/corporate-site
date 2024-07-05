@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
+import { notojp } from "./fonts";
+
 import Header from "./header";
 import Footer from "./footer";
-
-import { notojp } from "./fonts";
+import Transition from "./transition";
 
 export const metadata: Metadata = {
   title: "Retool・Bubble を活用したノーコード・ローコードの開発会社 | GOOD NEIGHBOR.Inc",
@@ -27,7 +27,7 @@ export default function RootLayout({
       </head>
       <body className={notojp.className}>
         <Header />
-        {children}
+        <Transition>{children}</Transition>
         <Footer />
       </body>
     </html>
