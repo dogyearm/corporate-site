@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { montserrat, lulo } from './fonts';
+import { montserrat, lulo } from '@fonts';
 
 // カバー画像を gif で表示したい
 export default function Home() {

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { notojp } from "./fonts";
+import { notojp } from "@fonts";
 
 import Header from "./header";
 import Footer from "./footer";

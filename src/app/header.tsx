@@ -5,7 +5,7 @@ import Image from "next/image";
 import Banner from "./banner";
 
 import { usePathname } from 'next/navigation';
-import { lulo } from './fonts';
+import { lulo } from '@fonts';
 
 export default function Header() {
   const pathname = usePathname();
