@@ -26,15 +26,15 @@ export default function About() {
       </section>
       */ }
 
-      <section>
+      <section id="about" className="bg-gray-300">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
             <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
               <Image
-                alt="About"
                 src="/about_thumb.jpeg"
                 width={800}
-                height={800}
+                height={600}
+                alt="About"
                 className="absolute inset-0 h-full w-full object-cover"
               />
             </div>
@@ -50,22 +50,26 @@ export default function About() {
                   </div>
 
                   <div className="grid grid-cols-1 gap-1 py-3 sm:grid-cols-3 sm:gap-4">
+                    <dt className="font-medium text-gray-900">代表者</dt>
+                    <dd className="text-gray-700 sm:col-span-2">岩元 雄太郎</dd>
+                  </div>
+
+                  { /*
+                  <div className="grid grid-cols-1 gap-1 py-3 sm:grid-cols-3 sm:gap-4">
                     <dt className="font-medium text-gray-900">所在地</dt>
                     <dd className="text-gray-700 sm:col-span-2">神奈川県横浜市</dd>
                   </div>
+                  */ }
 
                   <div className="grid grid-cols-1 gap-1 py-3 sm:grid-cols-3 sm:gap-4">
                     <dt className="font-medium text-gray-900">設立</dt>
-                    <dd className="text-gray-700 sm:col-span-2">2024年8月(登記準備中)</dd>
+                    <dd className="text-gray-700 sm:col-span-2">2024年登記準備中</dd>
                   </div>
                 </dl>
               </div>
             </div>
           </div>
         </div>
-      </section>
-
-      <section>
       </section>
 
       { /*
