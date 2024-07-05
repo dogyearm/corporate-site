@@ -15,7 +15,7 @@ export default function Footer() {
         </div>
 
         <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 text-sm">
-          「Good Neighbor = 良い隣人」であることを大切にし<br />お客様のビジネスをサポートします。
+          「Good Neighbor = 良き隣人」であることを大切にし<br />お客様のビジネスをサポートします。
         </p>
 
         <ul className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
