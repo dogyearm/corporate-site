@@ -2,6 +2,14 @@ import React from 'react';
 import { lulo } from './../fonts';
 
 export default function Service() {
+  const services = {
+    dev-ops: "フルスクラッチ開発",
+    no-code: "ノーコード開発",
+    liff: "LINE 連携アプリ",
+    chrome-extension: "Chrome 拡張ツール開発",
+    rails-versionup: "Rails バージョンアップ",
+    it-consulting: "コンサルティング業務",
+  }
   return (
     <main className="mt-32">
       <section>
