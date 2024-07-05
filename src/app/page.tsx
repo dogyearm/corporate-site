@@ -1,5 +1,4 @@
 import Image from "next/image";
-import ContactButton from "@components/ContactButton";
 import ContactBanner from "@components/ContactBanner";
 
 import { montserrat, lulo } from '@fonts';
@@ -20,10 +19,6 @@ export default function Home() {
             <p className="mt-4 max-w-lg text-white sm:text-xl/relaxed">
               当社は <strong>Retool</strong>・<strong>Bubble</strong> などのノーコード・ローコードツールを活用した開発を得意とする開発会社です。
             </p>
-
-            <div className="mt-8 flex flex-wrap justify-center gap-4">
-              <ContactButton />
-            </div>
           </div>
         </div>
       </section>
@@ -199,8 +194,6 @@ export default function Home() {
         </div>
       </section>
 
-      <ContactBanner />
-
       <section id="about" className="bg-gray-300">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
@@ -247,6 +240,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <ContactBanner />
     </main>
   );
 }

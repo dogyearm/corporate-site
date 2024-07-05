@@ -35,7 +35,10 @@ export default function Retool() {
           <h2 className="text-2xl font-extrabold text-center">Retool の導入事例</h2>
         </div>
       </section>
-      <ContactBanner />
+      <ContactBanner
+        title="Retool の導入をお考えの場合はお気軽にご相談ください。"
+        subtitle="Retool でできること、費用感、既存システムの連携方法などお客様の状況に合わせてご提案させていただきます。"
+      />
     </main>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { lulo } from './../fonts';
+import { lulo } from '@fonts';
 
 export default function About() {
   return (

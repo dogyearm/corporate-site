@@ -1,5 +1,5 @@
 import React from 'react';
-import { lulo } from './../fonts';
+import { lulo } from '@fonts';
 
 export default function Contact() {
   return (
