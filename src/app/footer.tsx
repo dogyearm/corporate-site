@@ -21,15 +21,15 @@ export default function Footer() {
 
         <ul class="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
           <li>
-            <a class="text-gray-700 transition hover:text-gray-700/75" href="#service"> Service </a>
+            <a class="text-gray-700 transition hover:text-gray-700/75" href="/#service"> Service </a>
           </li>
 
           <li>
-            <a class="text-gray-700 transition hover:text-gray-700/75" href="#works"> Works </a>
+            <a class="text-gray-700 transition hover:text-gray-700/75" href="/#works"> Works </a>
           </li>
 
           <li>
-            <a class="text-gray-700 transition hover:text-gray-700/75" href="#about"> About </a>
+            <a class="text-gray-700 transition hover:text-gray-700/75" href="/#about"> About </a>
           </li>
 
           <li>

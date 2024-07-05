@@ -233,7 +233,7 @@ export default function Home() {
 
                   <div className="grid grid-cols-1 gap-1 py-3 sm:grid-cols-3 sm:gap-4">
                     <dt className="font-medium text-gray-900">設立</dt>
-                    <dd className="text-gray-700 sm:col-span-2">登記準備中</dd>
+                    <dd className="text-gray-700 sm:col-span-2">2024年登記準備中</dd>
                   </div>
                 </dl>
               </div>
