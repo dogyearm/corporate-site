@@ -67,16 +67,16 @@ export default function Home() {
 
             <a
               className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-slate-500/10 hover:shadow-slate-500/10"
-              href="#"
+              href="/service/liff-app"
             >
               <svg className="size-10 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 17h6l3 3v-3h2V9h-2M4 4h11v8H9l-3 3v-3H4V4Z"/>
               </svg>
 
-              <h2 className="mt-4 text-xl font-bold">LIFF 連携アプリ</h2>
+              <h2 className="mt-4 text-xl font-bold">LIFF アプリ開発</h2>
 
               <p className="mt-1 text-sm text-gray-900">
-                LINE アプリと連携したアプリケーションの開発を行います。
+                LINE の機能を拡張する LIFF アプリの開発を行います。
                 店舗向けのアプリからユーザー向けのアプリまで幅広く対応いたします。
               </p>
             </a>
