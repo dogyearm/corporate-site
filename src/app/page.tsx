@@ -83,7 +83,7 @@ export default function Home() {
 
             <a
               className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-slate-500/10 hover:shadow-slate-500/10"
-              href="#"
+              href="/service/chrome-extension"
             >
 
               <svg className="size-10 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
