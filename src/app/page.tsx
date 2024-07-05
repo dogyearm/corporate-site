@@ -207,6 +207,7 @@ export default function Home() {
                 src="/about_thumb.jpeg"
                 width={800}
                 height={600}
+                alt="About"
                 className="absolute inset-0 h-full w-full object-cover"
               />
             </div>
