@@ -7,7 +7,7 @@ export default function Contact() {
       <section>
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
           <div className="mx-auto max-w-lg flex flex-col items-center">
-            <h1 className={`${lulo.className} font-extrabold text-4xl sm:text-6xl md:text-6xl pt-4`}>
+            <h1 className={`${lulo.className} font-extrabold text-4xl sm:text-6xl md:text-6xl pt-4 mb-10`}>
               Contact
             </h1>
 
