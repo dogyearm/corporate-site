@@ -11,7 +11,16 @@ export default function Contact() {
               Contact
             </h1>
 
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfDGO4oA3peo7wkKomxOtZ9RLM-NBvw9Jp67BapP_oGdFqL7g/viewform?embedded=true" width="640" height="1146" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+            <iframe
+               src="https://docs.google.com/forms/d/e/1FAIpQLSfDGO4oA3peo7wkKomxOtZ9RLM-NBvw9Jp67BapP_oGdFqL7g/viewform?embedded=true"
+               width="640"
+               height="1146"
+               frameBorder="0"
+               marginHeight="0"
+               marginWidth="0"
+             >
+              読み込んでいます…
+            </iframe>
           </div>
         </div>
       </section>
