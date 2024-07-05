@@ -226,10 +226,12 @@ export default function Home() {
                     <dd className="text-gray-700 sm:col-span-2">岩元 雄太郎</dd>
                   </div>
 
+                  { /*
                   <div className="grid grid-cols-1 gap-1 py-3 sm:grid-cols-3 sm:gap-4">
                     <dt className="font-medium text-gray-900">所在地</dt>
                     <dd className="text-gray-700 sm:col-span-2">神奈川県横浜市</dd>
                   </div>
+                  */ }
 
                   <div className="grid grid-cols-1 gap-1 py-3 sm:grid-cols-3 sm:gap-4">
                     <dt className="font-medium text-gray-900">設立</dt>
