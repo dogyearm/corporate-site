@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Image from "next/image";
-import Banner from "./banner";
+import Banner from "@components/Banner";
 
 import { usePathname } from 'next/navigation';
 import { lulo } from '@fonts';

@@ -56,16 +56,16 @@ export default function Home() {
 
             <a
               className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-slate-500/10 hover:shadow-slate-500/10"
-              href="#"
+              href="/service/retool"
             >
               <svg className="size-10 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v5m-3 0h6M4 11h16M5 15h14a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1Z"/>
               </svg>
 
-              <h2 className="mt-4 text-xl font-bold">ノーコード開発</h2>
+              <h2 className="mt-4 text-xl font-bold">Retool開発</h2>
 
               <p className="mt-1 text-sm text-gray-900">
-                Retool/Bubble/Google App Shee などのノーコード・ローコードツールを活用した開発を行います。
+                Retool を活用した開発を行います。
                 ウェブサイトから社内向け業務システムまで幅広く対応いたします。
               </p>
             </a>
