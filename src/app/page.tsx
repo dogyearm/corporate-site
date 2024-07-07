@@ -30,6 +30,10 @@ export default function Home() {
             <h2 className={`${lulo.className} text-3xl font-bold sm:text-4xl`}>Services</h2>
           </div>
 
+          <div className="mx-auto max-w-lg text-center">
+            <h3 className={`${lulo.className} text-2xl font-bold mt-16`}>システム開発</h3>
+          </div>
+
           <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             <a
               className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-slate-500/10 hover:shadow-slate-500/10"
@@ -147,7 +151,10 @@ export default function Home() {
                 WEBサービスの企画から開発まで幅広くサポートいたします。
               </p>
             </a>
+          </div>
 
+          <div className="mx-auto max-w-lg text-center">
+            <h3 className={`${lulo.className} text-2xl font-bold mt-16`}>自社サービス</h3>
           </div>
         </div>
       </section>
