@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { notojp } from "@fonts";
 
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import Transition from "../components/Transition";
+import Header from "@components/Header";
+import Footer from "@components/Footer";
+import Transition from "@components/Transition";
 
 export const metadata: Metadata = {
   title: "Retool・Bubble を活用したノーコード開発 | GOOD NEIGHBOR WORKS",
