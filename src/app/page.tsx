@@ -17,7 +17,7 @@ export default function Home() {
             </h1>
 
             <p className="mt-4 max-w-lg text-white sm:text-xl/relaxed">
-              当社は <strong>Retool</strong>・<strong>Bubble</strong> などのノーコード・ローコードツールを活用した開発を得意とする開発会社です。
+              「Good Neighbor = 良き隣人」であることを大切にし<br />お客様のビジネスをサポートします。
             </p>
           </div>
         </div>
