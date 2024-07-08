@@ -1,7 +1,7 @@
 import React from 'react';
 import { lulo } from "@fonts";
 
-import ContactBanner from "@components/ContactBanner";
+import ContactBanner from "@/components/ContactBanner";
 
 export const metadata: Metadata = {
   title: "Retool 導入支援に特化した開発会社 GOOD NEIGHBOR WORKS",

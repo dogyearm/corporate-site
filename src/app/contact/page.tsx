@@ -10,9 +10,8 @@ export default function Contact() {
             <h1 className={`${lulo.className} font-extrabold text-4xl sm:text-6xl md:text-6xl pt-4 mb-10`}>
               Contact
             </h1>
-
             <iframe
-               src="https://docs.google.com/forms/d/e/1FAIpQLSfDGO4oA3peo7wkKomxOtZ9RLM-NBvw9Jp67BapP_oGdFqL7g/viewform?embedded=true"
+               src="https://docs.google.com/forms/d/e/1FAIpQLSf8qBa0Ogg0oQMF5q-WJM6CWaqgAc7xFK8Kle0AlrNat7WJXQ/viewform?embedded=true"
                width="640"
                height="1146"
                frameBorder="0"
