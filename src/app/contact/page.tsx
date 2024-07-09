@@ -13,7 +13,7 @@ export default function Contact() {
             <iframe
                src="https://docs.google.com/forms/d/e/1FAIpQLSf8qBa0Ogg0oQMF5q-WJM6CWaqgAc7xFK8Kle0AlrNat7WJXQ/viewform?embedded=true"
                width="640"
-               height="1146"
+               height="1368"
                frameBorder="0"
              >
               読み込んでいます…

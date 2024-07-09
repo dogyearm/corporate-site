@@ -1,4 +1,4 @@
-import React from 'react';
+import type { Metadata } from "next";
 import { lulo } from "@fonts";
 
 import ContactBanner from "@/components/ContactBanner";
