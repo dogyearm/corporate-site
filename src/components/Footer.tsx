@@ -17,6 +17,14 @@ export default function Footer() {
         <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 text-sm">
           「Good Neighbor = 良き隣人」であることを大切にし<br />お客様のビジネスをサポートします。
         </p>
+        <p className="mx-auto mt-6 max-w-md text-center">
+          <span className="text-xs tracking-wide text-gray-500">Mailto →</span>
+
+          <a href="mailto:info@goodneighbor.works" target="_blank" className="ml-3 text-md font-bold text-gray-900 hover:opacity-75">
+            info@goodneighbor.works
+          </a>
+        </p>
+
 
         <ul className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
           <li>

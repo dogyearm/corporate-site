@@ -1,9 +1,10 @@
 import React from 'react';
 
-export default function ContactBanner({ title, subtitle , buttonText}) {
-  title = title || "まずはお気軽にご相談ください。";
-  subtitle = subtitle || "お手伝いできること、開発の費用感、お使いのシステムの改善方法などお客様の状況に合わせてご提案させていただきます。";
-  buttonText = buttonText || "お仕事のご相談はこちら →";
+export default function ContactBanner({
+  title = "まずはお気軽にご相談ください。",
+  subtitle = "お手伝いできること、開発の費用感、お使いのシステムの改善方法などお客様の状況に合わせてご提案させていただきます。",
+  buttonText = "お仕事のご相談はこちら →",
+}) {
 
   return (
     <section className="text-white relative bg-[url(/hero.gif)] bg-cover bg-center bg-no-repeat">
