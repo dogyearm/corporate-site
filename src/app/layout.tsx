@@ -9,21 +9,6 @@ import Transition from "@components/Transition";
 export const metadata: Metadata = {
   title: "株式会社 GOOD NEIGHBOR WORKS",
   description: "「Good Neighbor = 良き隣人」であることを大切にし<br />お客様のビジネスをサポートします。",
-  icon: "/favicon.png",
-  openGraph: {
-    type: "website",
-    locale: "ja_JP",
-    url: "https://goodneighbor.works/",
-    site_name: "GOOD NEIGHBOR WORKS",
-    images: [
-      {
-        url: "https://goodneighbor.works/ogp.png",
-        width: 1200,
-        height: 630,
-        alt: "GOOD NEIGHBOR WORKS",
-      },
-    ],
-  },
 };
 
 export default function RootLayout({
@@ -36,7 +21,7 @@ export default function RootLayout({
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={notojp.className}>
         <Header />
