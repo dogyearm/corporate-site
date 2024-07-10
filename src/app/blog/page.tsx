@@ -14,7 +14,7 @@ export default function Blog() {
               GOOD NEIGHBOR WORKS の技術ブログです。
             </p>
             <p className="mt-2 text-sm text-gray-600">
-              React, TypeScript, Tailwind CSS, Next.js, AWS, Serverless, etc... 色々なテーマについて扱います。
+              React, TypeScript, Tailwind CSS, Next.js, AWS, Serverless, etc... <br />色々なテーマについて扱います。
             </p>
           </div>
 
