@@ -9,6 +9,7 @@ import Transition from "@components/Transition";
 export const metadata: Metadata = {
   title: "株式会社 GOOD NEIGHBOR WORKS",
   description: "「Good Neighbor = 良き隣人」であることを大切にし<br />お客様のビジネスをサポートします。",
+  icon: "/favicon.png",
 };
 
 export default function RootLayout({
