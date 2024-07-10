@@ -26,12 +26,14 @@ export default function Header() {
                   提供するサービス
                 </a>
               </li>
+              { /*
               <li>
                 <a href="/#works" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-slate-700 md:px-2">
                   <span className="block text-xs">Works</span>
                   開発実績
                 </a>
               </li>
+              */ }
               <li>
                 <a href="/#about" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-slate-700 md:px-2">
                   <span className="block text-xs">About us</span>

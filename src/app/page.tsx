@@ -177,6 +177,7 @@ export default function Home() {
         </div>
       </section>
 
+      { /*
       <section id="works" className="bg-gray-200">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
           <div className="mx-auto max-w-lg text-center">
@@ -218,6 +219,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      */ }
 
       <section id="about" className="bg-gray-300">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
