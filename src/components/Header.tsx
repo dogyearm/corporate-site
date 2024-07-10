@@ -16,7 +16,7 @@ export default function Header() {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="/" className="flex gap-1 items-center">
             <Image src="/logo.svg" width={40} height={40} alt="Neighbor Works" className="mb-2.5" />
-            <span className={`${lulo.className} self-center text-sm font-semibold whitespace-nowrap`}>Good Neighbor Works</span>
+            <span className={`${lulo.className} self-center hidden sm:block text-sm font-semibold whitespace-nowrap`}>Good Neighbor Works</span>
           </a>
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul className="font-semibold text-sm flex flex-col items-center p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
