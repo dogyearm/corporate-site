@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ContactBanner from "@components/ContactBanner";
+import Transition from "@components/Transition";
 
 import { montserrat, lulo } from '@fonts';
 
@@ -7,21 +8,23 @@ import { montserrat, lulo } from '@fonts';
 export default function Home() {
   return (
     <main className="mt-32">
-      <section className="relative bg-[url(/hero.gif)] bg-cover bg-center bg-no-repeat">
-        <div className="absolute inset-0 bg-gray-900/75 sm:bg-transparent sm:from-gray-900/95 sm:to-gray-900/25"></div>
-        <div className="relative mx-auto max-w-screen-xl px-4 py-36 sm:px-6 lg:flex lg:items-center lg:px-8" >
-          <div className="mx-auto max-w-xl text-center">
-            <h1 className={`${lulo.className} text-white font-extrabold text-4xl sm:text-6xl md:text-7xl pt-4`}>
-            { /* <h1 className={`${montserrat.className} text-white font-extrabold text-4xl sm:text-6xl md:text-8xl pt-4`}> */ }
-              GOOD NEIGHBOR WORKS
-            </h1>
+      <Transition>
+        <section className="relative bg-[url(/hero.gif)] bg-cover bg-center bg-no-repeat">
+          <div className="absolute inset-0 bg-gray-900/75 sm:bg-transparent sm:from-gray-900/95 sm:to-gray-900/25"></div>
+          <div className="relative mx-auto max-w-screen-xl px-4 py-36 sm:px-6 lg:flex lg:items-center lg:px-8" >
+              <div className="mx-auto max-w-xl text-center">
+                <h1 className={`${lulo.className} text-white font-extrabold text-4xl sm:text-6xl md:text-7xl pt-4`}>
+                { /* <h1 className={`${montserrat.className} text-white font-extrabold text-4xl sm:text-6xl md:text-8xl pt-4`}> */ }
+                  GOOD NEIGHBOR WORKS
+                </h1>
 
-            <p className="mt-4 max-w-lg text-white sm:text-xl/relaxed">
-              「Good Neighbor = 良き隣人」であることを大切にし<br />お客様のビジネスをサポートします。
-            </p>
+                <p className="mt-4 max-w-lg text-white sm:text-xl/relaxed">
+                  「Good Neighbor = 良き隣人」であることを大切にし<br />お客様のビジネスをサポートします。
+                </p>
+              </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </Transition>
 
       <section id="service" className="bg-white">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
