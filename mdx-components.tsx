@@ -7,12 +7,12 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       <h1 className="mb-8 text-3xl font-bold">{props.children}</h1>
     ),
     h2: (props) => (
-      <h2 className="my-4 pb-1 pt-2 text-2xl font-bold">
+      <h2 className="my-5 pb-1 pt-2 text-2xl font-bold">
         {props.children}
       </h2>
     ),
     h3: (props) => (
-      <h3 className="my-2 py-1 text-xl font-bold">{props.children}</h3>
+      <h3 className="my-3 py-1 text-xl font-bold">{props.children}</h3>
     ),
     h4: (props) => <h4 className="py-1 text-lg font-bold">{props.children}</h4>,
     table: (props) => (
