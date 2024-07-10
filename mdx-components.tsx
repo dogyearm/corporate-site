@@ -45,6 +45,6 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     ),
     p: (props) => <p className="my-5 font-md leading-7">{props.children}</p>,
     pre: (props) => <pre className="my-5 p-4 bg-gray-800 text-white rounded-md">{props.children}</pre>,
-    code: (props) => <code className="text-sm p-1">{props.children}</code>,
+    code: (props) => <code className="text-xs p-1">{props.children}</code>,
   }
 }
