@@ -11,7 +11,7 @@
   "dependencies": {
     "@mdx-js/loader": "^3.0.1",
     "@mdx-js/react": "^3.0.1",
-    "@next/mdx": "^14.2.4",
+    "@next/mdx": "^14.2.5",
     "@next/third-parties": "^15.0.0-canary.69",
     "@types/mdx": "^2.0.13",
     "framer-motion": "^11.2.13",
