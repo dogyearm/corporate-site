@@ -7,6 +7,7 @@ const nextConfig = {
   pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
 };
 
+/*
 const withMDX = createMDX({
   extension: /\.mdx?$/,
   options: {
@@ -18,3 +19,5 @@ const withMDX = createMDX({
 });
 
 export default withMDX(nextConfig);
+*/
+export default nextConfig;
