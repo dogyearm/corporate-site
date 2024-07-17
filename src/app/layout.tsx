@@ -6,10 +6,9 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 
 import Header from "@components/Header";
 import Footer from "@components/Footer";
-import Transition from "@components/Transition";
 
 export const metadata: Metadata = {
-  title: "株式会社 GOOD NEIGHBOR WORKS",
+  title: "GOOD NEIGHBOR WORKS",
   description: "「Good Neighbor = 良き隣人」であることを大切にし<br />お客様のビジネスをサポートします。",
 };
 
@@ -27,7 +26,7 @@ export default function RootLayout({
       </head>
       <body className={notojp.className}>
         <Header />
-        <Transition>{children}</Transition>
+        {children}
         <Footer />
       </body>
       <GoogleAnalytics gaId="G-VEPCJ3ZH29" />
