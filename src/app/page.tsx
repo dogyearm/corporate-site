@@ -160,23 +160,29 @@ export default function Home() {
             <h3 className={`${lulo.className} text-2xl font-bold mt-16`}>自社サービス</h3>
           </div>
 
-          { /*
           <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2">
-            <a href="#" className="block">
-              <img
-                alt=""
-                src="https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                className="h-64 w-full object-cover sm:h-80 lg:h-96"
-              />
+            <div>
+              <a
+                href="https://www.oripa.club/"
+                target="_blank"
+                className="group block mb-2 rounded-lg bg-gray-100 h-64 w-full sm:h-80 lg:h-96 overflow-hidden relative"
+              >
+                <img
+                  alt=""
+                  src="/oripaclub_thumb.png"
+                  className="h-64 w-full sm:h-80 lg:h-96 object-cover object-center transition"
+                />
+                <div className="absolute inset-0 transition duration-200 group-hover:bg-black/30"></div>
+              </a>
+              <a href="https://www.oripa.club/" target="_blank" className="block">
+                <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">ORIPA CLUB</h3>
 
-              <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">ORIPA CLUB</h3>
-
-              <p className="mt-2 max-w-sm text-gray-700">
-                トレーディングカードのオリジナルパック(オリパ) を簡単に作成できるサービスです。
-              </p>
-            </a>
+                <p className="mt-2 max-w-sm text-gray-700">
+                  トレーディングカードのオリジナルパック(オリパ) を簡単に作成できるサービスです。
+                </p>
+              </a>
+            </div>
           </div>
-          */ }
         </div>
       </section>
 
