@@ -157,7 +157,7 @@ export default function Home() {
           </div>
 
           <div className="mx-auto max-w-lg text-center">
-            <h3 className={`${lulo.className} text-2xl font-bold mt-16`}>自社サービス</h3>
+            <h3 className={`${lulo.className} text-2xl font-bold mt-16`}>サービス</h3>
           </div>
 
           <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2">
